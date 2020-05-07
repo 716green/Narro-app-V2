@@ -32,7 +32,8 @@
                 href="https://twitter.com/CreativeTim"
                 target="_blank"
               >
-                <i class="fab fa-twitter"></i>
+                <!-- <i class="fab fa-twitter"></i> -->
+                <i class="fas fa-bolt"></i>
                 <p>Zapier</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -42,7 +43,7 @@
                 href="https://www.facebook.com/CreativeTim"
                 target="_blank"
               >
-                <i class="fab fa-facebook-square"></i>
+                <i class="fas fa-exclamation-circle"></i>
                 <p>Integromat</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -52,7 +53,7 @@
                 href="https://twitter.com/CreativeTim"
                 target="_blank"
               >
-                <i class="fab fa-twitter"></i>
+                <i class="fas fa-table"></i>
                 <p>Airtable</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -62,7 +63,7 @@
                 href="https://www.facebook.com/CreativeTim"
                 target="_blank"
               >
-                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google"></i>
                 <p>GSuite</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -72,7 +73,7 @@
                 href="https://www.instagram.com/CreativeTimOfficial"
                 target="_blank"
               >
-                <i class="fab fa-instagram"></i>
+                <i class="fas fa-database"></i>
                 <p>MySQL</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -82,7 +83,7 @@
                 href="https://www.instagram.com/CreativeTimOfficial"
                 target="_blank"
               >
-                <i class="fab fa-instagram"></i>
+                <i class="fas fa-list-alt"></i>
                 <p>Everything Else</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
@@ -276,3 +277,17 @@ export default {
   }
 };
 </script>
+<style scoped>
+.fa-exclamation-circle {
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.fa-google,
+.fa-google::before {
+  vertical-align: middle;
+  width: 0.7rem;
+  font-size: 0.7rem;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+</style>
