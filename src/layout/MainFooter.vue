@@ -9,12 +9,12 @@
         <ul>
           <li>
             <a href="https://www.creative-tim.com">
-              ABC
+              <i class="fab fa-github"></i>
             </a>
           </li>
           <li>
             <a href="https:///presentation.creative-tim.com">
-              DEF
+              <i class="far fa-id-card"></i>
             </a>
           </li>
           <li>
