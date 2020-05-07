@@ -220,6 +220,7 @@ export default {
   computed: {
     showDownload() {
       const excludedRoutes = ["login", "landing", "profile"];
+      // eslint-disable-next-line prettier/prettier
       return excludedRoutes.every((r) => r !== this.$route.name);
     }
   },
